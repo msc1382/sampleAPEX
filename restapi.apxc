@@ -38,7 +38,7 @@ public class SendFileToSF {
             	reqBody=reqBody+'}'+LINE_FEED+LINE_FEED;
             	reqBody=reqBody+'--'+bstr+LINE_FEED;
             	reqBody=reqBody+'Content-Type: application/octet-stream'+LINE_FEED;
-            	reqBody=reqBody+'Content-Disposition: form-data; name="VersionData"; filename="InstaCMS.jpg"'+LINE_FEED+LINE_FEED;
+            	reqBody=reqBody+'Content-Disposition: form-data; name="VersionData"; filename="InstaMSC.jpg"'+LINE_FEED+LINE_FEED;
             	reqBody=reqBody+bb+LINE_FEED+LINE_FEED;
             	reqBody=reqBody+'--'+bstr+'--';
             	request1.setBody(reqBody);
